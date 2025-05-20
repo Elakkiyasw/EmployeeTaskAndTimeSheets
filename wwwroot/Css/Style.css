@@ -1,0 +1,140 @@
+﻿/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 60px; /* Minimized width */
+    background-color: #1b6ca4;
+    color: #ecf0f1;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: width 0.3s ease;
+    overflow: hidden;
+}
+
+    .sidebar:hover {
+        width: 250px; /* Expanded width */
+    }
+
+.logo-container {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, width 0.3s ease;
+    text-align: center;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.sidebar:hover .logo {
+    transform: scale(1.2);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+    .sidebar ul li {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+        .sidebar ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+            padding: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+            .sidebar ul li a:hover {
+                background-color: #34495e;
+                border-radius: 4px;
+            }
+
+/* Main Content Styling */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Header Styling */
+.header {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Content Area */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 60px; /* Adjust sidebar for mobile */
+    }
+
+        .sidebar:hover {
+            width: 200px; /* Adjust expanded width for mobile */
+        }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+}
+.icon {
+    width: 20px; /* Adjust size as needed */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px; /* Space between icon and text */
+    transition: transform 0.3s ease;
+}
+
+.sidebar ul li a:hover .icon {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+

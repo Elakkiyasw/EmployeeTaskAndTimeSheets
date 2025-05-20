@@ -1,0 +1,393 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>610348| Daily Time sheet Entry</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <link rel="stylesheet" href="../Css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <style>
+
+        .crud-buttons {
+            text-align: right;
+            margin: 20px;
+        }
+
+            .crud-buttons button {
+                background-color: #4ca2ff;
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 5px 2px;
+                cursor: pointer;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+
+                .crud-buttons button:hover {
+                    background-color: #0056b3;
+                }
+
+                .crud-buttons button:active {
+                    background-color: #004080;
+                }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border: 3px solid #a8aeb2; /* Outer border of the table */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better aesthetics */
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-top: 1px solid #ddd;
+            border-right: 1px solid #ddd; /* Add vertical borders */
+        }
+
+        th {
+            background-color: #2980b9; /* Header background */
+            color: white;
+            border-top: 2px solid #004080; /* Thicker bottom border for the header */
+            text-align: center;
+        }
+
+            td:last-child, th:last-child {
+                border-right: none; /* Remove right border for the last column */
+            }
+
+        tr:hover {
+            background-color: #cfd4d7; /* Hover effect for rows */
+        }
+
+        .action-button {
+            padding: 8px; /* Adjust padding */
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px; /* Adjust icon size */
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px; /* Set width to ensure a consistent button size */
+            height: 20px; /* Set height to ensure a consistent button size */
+        }
+
+        .edit-button {
+            background-color: #4ca2ff;
+        }
+
+        .delete-button {
+            background-color: #ff4c4c;
+        }
+
+        .action-button:hover {
+            opacity: 0.8;
+        }
+        /* Sorting arrow styling */
+        .sort-icon {
+            margin-left: 8px;
+            font-size: 12px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+            .sort-icon::before {
+                content: '\25B2'; /* Default up arrow */
+            }
+
+        th.desc .sort-icon::before {
+            content: '\25BC'; /* Down arrow */
+        }
+
+        .pagination button {
+            padding: 8px 16px;
+            border: none;
+            background-color: #4ca2ff;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+            .pagination button:hover {
+                background-color: #0056b3;
+            }
+
+            .pagination button:disabled {
+                background-color: #ddd;
+                cursor: not-allowed;
+            }
+
+        .menu {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu-item {
+            position: relative;
+        }
+
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 30px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            z-index: 1000;
+        }
+
+            .submenu li {
+                padding: 5px;
+            }
+
+        .menu-item:hover .submenu {
+            display: block;
+        }
+
+        .menu-item a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+            padding: 10px;
+        }
+
+            .menu-item a:hover {
+                background-color: #f0f0f0;
+            }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-container">
+                <!--<img src="" alt="Logo" class="logo" style="width:100px; height:auto;">-->
+            </div>
+            <ul class="menu">
+                <li><a href="Dashboard.html"><i class="fa fa-tachometer"></i> Dashboard</a></li>
+                <li class="menu-item">
+                    <a href="#"><i class="fa fa-lock"></i>Timesheet Reports</a>
+                    <ul class="submenu">
+                        <li><a href="Employee_Reports.html"><i class="fa fa-arrow-right"></i> Employee Reports</a></li>
+                        <li class="submenu"><a href="Daily_Report.html"><i class="fa fa-arrow-right"></i> Daily Report</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+
+        </aside>
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <h3>Task Details - August - 2024</h3>
+
+            </header>
+
+            <div class="crud-buttons">
+                <button onclick="addTask()">Add Task</button>
+                <button onclick="saveTasksAsPdf()">Save/Download </button> <!-- New button to save as TXT -->
+            </div>
+
+            <table id="taskTable">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable(0)">
+                            Date <span class="sort-icon"></span><br />
+                            <input type="text" id="dateSearch" onkeyup="columnSearch(0)" placeholder="Search by Date">
+                        </th>
+                        <th onclick="sortTable(1)">
+                            Task Name <span class="sort-icon"></span><br />
+                            <input type="text" id="taskSearch" onkeyup="columnSearch(1)" placeholder="Search by Task Name">
+                        </th>
+                        <th>Actions</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dynamic rows will be added here -->
+                </tbody>
+            </table>
+            <!-- Pagination controls -->
+            <div class="pagination">
+                <button id="prevPage" onclick="changePage(currentPage - 1)">Previous</button>
+                <button id="nextPage" onclick="changePage(currentPage + 1)">Next</button>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        const { jsPDF } = window.jspdf;
+
+        let tasks = [];
+        let currentPage = 1;
+        const rowsPerPage = 10;
+        let sortDirection = true; // true for ascending, false for descending
+
+        function loadTasks() {
+            const storedTasks = localStorage.getItem('tasks');
+            if (storedTasks) {
+                tasks = JSON.parse(storedTasks);
+            }
+            renderTable();
+        }
+
+        function saveTasks() {
+            localStorage.setItem('tasks', JSON.stringify(tasks));
+        }
+
+        function renderTable() {
+            const tableBody = document.getElementById('taskTable').querySelector('tbody');
+            tableBody.innerHTML = '';
+
+            const startIndex = (currentPage - 1) * rowsPerPage;
+            const endIndex = startIndex + rowsPerPage;
+            const paginatedTasks = tasks.slice(startIndex, endIndex);
+
+            paginatedTasks.forEach((task, index) => {
+                const row = document.createElement('tr');
+
+                const dateCell = document.createElement('td');
+                dateCell.textContent = task.date;
+                row.appendChild(dateCell);
+
+                const taskCell = document.createElement('td');
+                taskCell.textContent = task.name;
+                row.appendChild(taskCell);
+
+                const actionCell = document.createElement('td');
+                actionCell.innerHTML = `
+                            <button onclick="editTask(${startIndex + index})" class="action-button edit-button">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button onclick="deleteTask(${startIndex + index})" class="action-button delete-button">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        `;
+                row.appendChild(actionCell);
+
+                tableBody.appendChild(row);
+            });
+
+            updatePaginationControls();
+        }
+
+        function updatePaginationControls() {
+            document.getElementById('prevPage').disabled = currentPage === 1;
+            document.getElementById('nextPage').disabled = currentPage * rowsPerPage >= tasks.length;
+        }
+
+        function changePage(newPage) {
+            if (newPage >= 1 && newPage <= Math.ceil(tasks.length / rowsPerPage)) {
+                currentPage = newPage;
+                renderTable();
+            }
+        }
+
+        function addTask() {
+            const date = prompt('Enter task date (YYYY-MM-DD):');
+            const name = prompt('Enter task name:');
+
+            if (date && name) {
+                tasks.push({ date, name });
+                saveTasks();
+                renderTable();
+            } else {
+                alert('Both date and task name are required.');
+            }
+        }
+
+        function editTask(index) {
+            const date = prompt('Enter new task date (YYYY-MM-DD):', tasks[index].date);
+            const name = prompt('Enter new task name:', tasks[index].name);
+
+            if (date && name) {
+                tasks[index] = { date, name };
+                saveTasks();
+                renderTable();
+            } else {
+                alert('Both date and task name are required.');
+            }
+        }
+
+        function deleteTask(index) {
+            if (confirm('Are you sure you want to delete this task?')) {
+                tasks.splice(index, 1);
+                saveTasks();
+                renderTable();
+            }
+        }
+
+        function sortTable(columnIndex) {
+            tasks.sort((a, b) => {
+                const valueA = Object.values(a)[columnIndex].toLowerCase();
+                const valueB = Object.values(b)[columnIndex].toLowerCase();
+                if (sortDirection) {
+                    return valueA > valueB ? 1 : -1;
+                } else {
+                    return valueA < valueB ? 1 : -1;
+                }
+            });
+            sortDirection = !sortDirection;
+            renderTable();
+        }
+
+        function columnSearch(columnIndex) {
+            const searchValue = document.querySelectorAll('th input[type="text"]')[columnIndex].value.toLowerCase();
+            const rows = document.querySelectorAll('#taskTable tbody tr');
+
+            rows.forEach(row => {
+                const cell = row.querySelectorAll('td')[columnIndex].textContent.toLowerCase();
+                if (cell.includes(searchValue)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
+        function saveTasksAsTxt() {
+            let txtContent = tasks.map(task => `Date: ${task.date}, Task: ${task.name}`).join('\n');
+            const blob = new Blob([txtContent], { type: 'text/plain' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'tasks.txt';
+            link.click();
+        }
+
+        function saveTasksAsPdf() {
+            const doc = new jsPDF();
+
+            doc.setFontSize(12);
+            doc.text('Task List', 14, 20);
+
+            tasks.forEach((task, index) => {
+                doc.text(`Task ${index + 1}: Date: ${task.date}, Task: ${task.name}`, 14, 30 + (10 * index));
+            });
+
+            doc.save('tasks.pdf');
+        }
+
+        loadTasks();
+    </script>
+
+    <!-- Font Awesome for icons (link to CDN) -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>

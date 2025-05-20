@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Css\\Style.css",
+      "PackagePath": "staticwebassets\\Css\\Style.css"
+    },
+    {
+      "Id": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Daily_Report.html",
+      "PackagePath": "staticwebassets\\Design\\Daily_Report.html"
+    },
+    {
+      "Id": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Dashboard.html",
+      "PackagePath": "staticwebassets\\Design\\Dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Employee_Reports.html",
+      "PackagePath": "staticwebassets\\Design\\Employee_Reports.html"
+    },
+    {
+      "Id": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\Incedo_Logo.png",
+      "PackagePath": "staticwebassets\\Image\\Incedo_Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\incedo-logo.png",
+      "PackagePath": "staticwebassets\\Image\\incedo-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\inet_logo.png",
+      "PackagePath": "staticwebassets\\Image\\inet_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\javascript\\scripts.js",
+      "PackagePath": "staticwebassets\\javascript\\scripts.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WEBAPI_Demo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WEBAPI_Demo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WEBAPI_Demo.props",
+      "PackagePath": "build\\WEBAPI_Demo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WEBAPI_Demo.props",
+      "PackagePath": "buildMultiTargeting\\WEBAPI_Demo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WEBAPI_Demo.props",
+      "PackagePath": "buildTransitive\\WEBAPI_Demo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

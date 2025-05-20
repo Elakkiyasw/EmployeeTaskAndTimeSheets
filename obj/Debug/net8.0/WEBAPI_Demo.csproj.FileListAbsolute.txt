@@ -1,0 +1,96 @@
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\appsettings.json
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\data.json
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\employees.json
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.exe
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.deps.json
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.runtimeconfig.json
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.pdb
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.csproj.AssemblyReference.cache
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.AssemblyInfoInputs.cache
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.AssemblyInfo.cs
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.csproj.CoreCompileInputs.cache
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets\msbuild.WEBAPI_Demo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets\msbuild.build.WEBAPI_Demo.props
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WEBAPI_Demo.props
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WEBAPI_Demo.props
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\scopedcss\bundle\WEBAPI_Demo.styles.css
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_D.E4E68380.Up2Date
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\refint\WEBAPI_Demo.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.pdb
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.genruntimeconfig.cache
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\ref\WEBAPI_Demo.dll
+C:\Users\elakkiya.s\source\repos\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.staticwebassets.runtime.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\appsettings.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\data.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\employees.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.staticwebassets.runtime.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.staticwebassets.endpoints.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.exe
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.deps.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.runtimeconfig.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\WEBAPI_Demo.pdb
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.csproj.AssemblyReference.cache
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.AssemblyInfoInputs.cache
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.AssemblyInfo.cs
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.csproj.CoreCompileInputs.cache
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\scopedcss\bundle\WEBAPI_Demo.styles.css
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets\msbuild.WEBAPI_Demo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets\msbuild.WEBAPI_Demo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets\msbuild.build.WEBAPI_Demo.props
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WEBAPI_Demo.props
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WEBAPI_Demo.props
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_D.E4E68380.Up2Date
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\refint\WEBAPI_Demo.dll
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.pdb
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\WEBAPI_Demo.genruntimeconfig.cache
+C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\obj\Debug\net8.0\ref\WEBAPI_Demo.dll

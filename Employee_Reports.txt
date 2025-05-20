@@ -1,0 +1,224 @@
+[
+  {
+    "Id": 1,
+    "EmployeeName": "Elakkiya Swaminathan",
+    "TaskDescription": "Demo for WEB API",
+    "Status": "Closed"
+  },
+  {
+    "Id": 2,
+    "EmployeeName": "Employee2",
+    "TaskDescription": "BIZREQ-9532:SmartWorks CIS - Transactions with Direct Rollover do not Transfer Info to PVA from AnnuityNet",
+    "Status": "Development in progress"
+  },
+  {
+    "Id": 3,
+    "EmployeeName": "Employee2",
+    "TaskDescription": "BIZREQ-27686:SmartWorks CIS - Remove iAnalyze Link from SmartWorks UI",
+    "Status": "Closed"
+  },
+  {
+    "Id": 4,
+    "EmployeeName": "Employee2",
+    "TaskDescription": "BIZREQ-27550:SmartWorks CIS - On Demand Report Displaying Multiple Accounts",
+    "Status": "Analysis Completed"
+  },
+  {
+    "Id": 5,
+    "EmployeeName": "Employee2",
+    "TaskDescription": "BIZREQ-27549:SmartWorks CIS - Generate Notification for Client Profile Update",
+    "Status": "On Hold"
+  },
+  {
+    "Id": 6,
+    "EmployeeName": "Employee2",
+    "TaskDescription": "Project:Wealth Access Integration",
+    "Status": "Analysis in progress"
+  },
+  {
+    "Id": 7,
+    "EmployeeName": "Employee3",
+    "TaskDescription": "DBS-2281:Adding/Removing Control Person in PBD AW on Trust does not flow over to CIS SW",
+    "Status": "Dev completed"
+  },
+  {
+    "Id": 8,
+    "EmployeeName": "Employee3",
+    "TaskDescription": "DBC-1138:Decedent Role - Correctly Display Role and Profile Status (SW) � Part 1 � [SmartWorks Dev Only]",
+    "Status": "Deployed in QA"
+  },
+  {
+    "Id": 9,
+    "EmployeeName": "Employee3",
+    "TaskDescription": "BIZREQ-27023:SmartWorks CIS - Account Opening STP (Straight Through Processing) for AN accounts",
+    "Status": "Analysis Completed"
+  },
+  {
+    "Id": 10,
+    "EmployeeName": "Employee4",
+    "TaskDescription": "DBC-1339:Settlement Options for Brokerage - Investment Club is not correct in drop-down",
+    "Status": "Work In Progress"
+  },
+  {
+    "Id": 11,
+    "EmployeeName": "Employee4",
+    "TaskDescription": "MAR-723:Account number is not getting generated",
+    "Status": "Work In Progress"
+  },
+  {
+    "Id": 12,
+    "EmployeeName": "Employee5",
+    "TaskDescription": "BIZREQ-24434:CFI Batch Server - change the log file location",
+    "Status": "Ready for QA deployment"
+  },
+  {
+    "Id": 13,
+    "EmployeeName": "Employee6",
+    "TaskDescription": "BIZREQ-27399:SmartWorks CIS - Identify Direct Accounts that have Left Cetera",
+    "Status": "Analysis in progress"
+  },
+  {
+    "Id": 14,
+    "EmployeeName": "Employee6",
+    "TaskDescription": "BIZREQ-21938:Change the DST Process to Skip Records When there Is Not a Cusip",
+    "Status": "Dev completed"
+  },
+  {
+    "Id": 15,
+    "EmployeeName": "Employee6",
+    "TaskDescription": "BIZREQ-26715:Cornerstone - Casear - CFS Datafeed Information is Incorrect",
+    "Status": "Analysis in progress"
+  },
+  {
+    "Id": 16,
+    "EmployeeName": "Employee7",
+    "TaskDescription": "BIZREQ-27653:SmartWorks CIS - Update Modified Date When Ids Are Changed in OPS Tables Updated Though Profile Manager",
+    "Status": "Analysis in progress"
+  },
+  {
+    "Id": 17,
+    "EmployeeName": "Employee7",
+    "TaskDescription": "BIZREQ-26316:SmartWorks CIS - Request IDs Not Completing once Position is Updated",
+    "Status": "Deployed in QA. Testing in progress"
+  },
+  {
+    "Id": 18,
+    "EmployeeName": "Employee7",
+    "TaskDescription": "BIZREQ-24827:SmartWorks CIS - Bank Conversion - T2T Upload of BPS Accts to SW: Updates to SW Load Process",
+    "Status": "Analysis in progress"
+  },
+  {
+    "Id": 19,
+    "EmployeeName": "Employee7",
+    "TaskDescription": "BIZREQ-27226:SmartWorks CIS - New Position/title Added in Profile Manager - Trust User - Wealth Access",
+    "Status": "Deployed in QA"
+  },
+  {
+    "Id": 20,
+    "EmployeeName": "Employee7",
+    "TaskDescription": "DBC-1315:Team Rep Code users cannot access to Annuity net",
+    "Status": "Moved to QA Testing"
+  },
+  {
+    "Id": 21,
+    "EmployeeName": "Elakkiya Swaminathan",
+    "TaskDescription": "Pv Smarkworks : Weekly Reports",
+    "Status": "Closed"
+  },
+  {
+    "Id": 22,
+    "EmployeeName": "Employee6",
+    "TaskDescription": "BIZREQ-23987:SmartWorks CIS - NACA Trail Not Splitting Per Carrier",
+    "Status": "Analysis in progress"
+  },
+  {
+    "Id": 23,
+    "EmployeeName": "Elakkiya Swaminathan",
+    "TaskDescription": "AWS: Cloud Computing and IAM",
+    "Status": "Closed"
+  },
+  {
+    "Id": 24,
+    "EmployeeName": "Elakkiya Swaminathan",
+    "TaskDescription": "AWS: Cloud Watch",
+    "Status": "Work In Progress"
+  },
+  {
+    "Id": 25,
+    "EmployeeName": "Employee5",
+    "TaskDescription": "BIZREQ-25841:SmartWorks CIS - AN's not pulling into Rep Reassignment Tool ds",
+    "Status": "Work In Progress"
+  },
+  {
+    "Id": 26,
+    "EmployeeName": "Employee5",
+    "TaskDescription": "BIZREQ-27726:SmartWorks CIS - Add Alert Message to CIS SmartWorks Landing Page",
+    "Status": "Deployed to prod"
+  },
+  {
+    "Id": 27,
+    "EmployeeName": "Employee2",
+    "TaskDescription": "Data Refresh:SW table & Data Masking 2024",
+    "Status": "Analysis in progress"
+  },
+  {
+    "Id": 28,
+    "EmployeeName": "Employee3",
+    "TaskDescription": "DBC-1519:Political Exposure Affiliation questions not populating the NAA or SW UI [PROD]",
+    "Status": "Analysis Completed"
+  },
+  {
+    "Id": 29,
+    "EmployeeName": "Employee3",
+    "TaskDescription": "DBC-1339:Settlement Options for Brokerage - Investment Club is not correct in drop-down",
+    "Status": "Deployed in QA"
+  },
+  {
+    "Id": 30,
+    "EmployeeName": "Employee3",
+    "TaskDescription": "AWS-24481:AWAO - Clients receiving multiple CP enrollment invites",
+    "Status": "Analysis in progress"
+  },
+  {
+    "Id": 31,
+    "EmployeeName": "Employee3",
+    "TaskDescription": "BIZREQ-27750:SmartWorks CIS - PBD Column Changes Impact Analysis",
+    "Status": "Analysis in progress"
+  },
+  {
+    "Id": 32,
+    "EmployeeName": "Employee3",
+    "TaskDescription": "BIZREQ-27023:SmartWorks CIS - Account Opening STP (Straight Through Processing) for AN accounts",
+    "Status": "Analysis in progress"
+  },
+  {
+    "Id": 33,
+    "EmployeeName": "Employee3",
+    "TaskDescription": "DBS-2382:SSN Update in CIS SW to flow to CAN SW",
+    "Status": "Work In Progress"
+  },
+  {
+    "Id": 34,
+    "EmployeeName": "Employee3",
+    "TaskDescription": "DBS-222:Pass Sole Proprietorship Data to SW (AdviceWorks) - Part 4 [Dev Only]",
+    "Status": "Deployed to prod"
+  },
+  {
+    "Id": 35,
+    "EmployeeName": "Employee3",
+    "TaskDescription": "DBC-1079:Sole Proprietorship: Display Attribute on SW UI - Part 7",
+    "Status": "Deployed to prod"
+  },
+  {
+    "Id": 36,
+    "EmployeeName": "Employee4",
+    "TaskDescription": "DBS-2118:Money Movement Report (Split Code Accounts)",
+    "Status": "Deployed in QA"
+  },
+  {
+    "Id": 37,
+    "EmployeeName": "Elakkiya Swaminathan",
+    "TaskDescription": "Demo Session",
+    "Status": "Work In Progress"
+  }
+]

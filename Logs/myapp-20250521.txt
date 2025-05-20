@@ -1,0 +1,413 @@
+2025-05-21 00:21:57.083 +05:30 [INF] Now listening on: https://localhost:7010
+2025-05-21 00:21:57.150 +05:30 [INF] Now listening on: http://localhost:5121
+2025-05-21 00:21:57.261 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-21 00:21:57.286 +05:30 [INF] Hosting environment: Development
+2025-05-21 00:21:57.286 +05:30 [INF] Content root path: C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo
+2025-05-21 00:21:58.126 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger - null null
+2025-05-21 00:21:58.213 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger - 301 0 null 95.9033ms
+2025-05-21 00:21:58.223 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/index.html - null null
+2025-05-21 00:21:58.366 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/index.html - 200 null text/html;charset=utf-8 143.7702ms
+2025-05-21 00:21:58.396 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/swagger-ui.css - null null
+2025-05-21 00:21:58.400 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/swagger-ui-bundle.js - null null
+2025-05-21 00:21:58.400 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-21 00:21:58.405 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:21:58.457 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 51.9898ms
+2025-05-21 00:21:58.488 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-21 00:21:58.488 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-21 00:21:58.522 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-21 00:21:58.526 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/swagger-ui.css - 200 143943 text/css 129.7121ms
+2025-05-21 00:21:58.528 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 127.5948ms
+2025-05-21 00:21:58.537 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 137.5203ms
+2025-05-21 00:21:58.748 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/v1/swagger.json - null null
+2025-05-21 00:21:58.767 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.4082ms
+2025-05-21 00:21:58.781 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/swagger/favicon-32x32.png - null null
+2025-05-21 00:21:58.797 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-21 00:21:58.807 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/swagger/favicon-32x32.png - 200 628 image/png 25.237ms
+2025-05-21 00:23:45.926 +05:30 [INF] Now listening on: https://localhost:7010
+2025-05-21 00:23:45.962 +05:30 [INF] Now listening on: http://localhost:5121
+2025-05-21 00:23:46.001 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-21 00:23:46.002 +05:30 [INF] Hosting environment: Development
+2025-05-21 00:23:46.004 +05:30 [INF] Content root path: C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo
+2025-05-21 00:23:46.587 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Dashboard.html - null null
+2025-05-21 00:23:46.686 +05:30 [INF] Sending file. Request path: '/Design/Dashboard.html'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Design\Dashboard.html'
+2025-05-21 00:23:46.688 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Css/Style.css - null null
+2025-05-21 00:23:46.693 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Image/incedo-logo.png - null null
+2025-05-21 00:23:46.695 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:23:46.737 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Dashboard.html - 200 null text/html 151.6345ms
+2025-05-21 00:23:46.740 +05:30 [INF] Sending file. Request path: '/Css/Style.css'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Css\Style.css'
+2025-05-21 00:23:46.744 +05:30 [INF] Sending file. Request path: '/Image/incedo-logo.png'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Image\incedo-logo.png'
+2025-05-21 00:23:46.750 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 54.2897ms
+2025-05-21 00:23:46.754 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Css/Style.css - 200 2756 text/css 65.8477ms
+2025-05-21 00:23:46.755 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Image/incedo-logo.png - 200 29765 image/png 62.1916ms
+2025-05-21 00:23:46.902 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:23:46.916 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:23:46.942 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:23:46.998 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/favicon.ico - null null
+2025-05-21 00:23:47.003 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/favicon.ico - 404 0 null 5.0178ms
+2025-05-21 00:23:47.010 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7010/favicon.ico, Response status code: 404
+2025-05-21 00:23:47.178 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:23:47.195 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 246.7056ms
+2025-05-21 00:23:47.198 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:23:47.200 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 298.6664ms
+2025-05-21 00:24:01.677 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:24:01.690 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 13.0016ms
+2025-05-21 00:24:01.694 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:24:01.706 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:24:01.708 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:24:01.713 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:24:01.717 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 5.9239ms
+2025-05-21 00:24:01.720 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:24:01.722 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 27.5031ms
+2025-05-21 00:24:04.616 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:24:04.625 +05:30 [INF] Sending file. Request path: '/Design/Employee_Reports.html'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Design\Employee_Reports.html'
+2025-05-21 00:24:04.636 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:24:04.658 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 22.7003ms
+2025-05-21 00:24:04.648 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 200 null text/html 31.5205ms
+2025-05-21 00:24:04.675 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:24:04.686 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:24:04.688 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:24:04.693 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:24:04.697 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 6.4063ms
+2025-05-21 00:24:04.700 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:24:04.705 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 29.6059ms
+2025-05-21 00:24:56.699 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:24:56.706 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:24:56.708 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 8.4123ms
+2025-05-21 00:24:56.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Image/incedo-logo.png - null null
+2025-05-21 00:24:56.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Css/Style.css - null null
+2025-05-21 00:24:56.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:24:56.728 +05:30 [INF] The file /Image/incedo-logo.png was not modified
+2025-05-21 00:24:56.732 +05:30 [INF] The file /Css/Style.css was not modified
+2025-05-21 00:24:56.736 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 14.9609ms
+2025-05-21 00:24:56.738 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Image/incedo-logo.png - 304 null image/png 16.5789ms
+2025-05-21 00:24:56.740 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Css/Style.css - 304 null text/css 18.8079ms
+2025-05-21 00:24:56.755 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:24:56.761 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:24:56.763 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:24:56.766 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:24:56.768 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 3.0521ms
+2025-05-21 00:24:56.770 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:24:56.773 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 17.5035ms
+2025-05-21 00:25:23.665 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:25:23.672 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:25:23.673 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 8.8782ms
+2025-05-21 00:25:23.693 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:25:23.696 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 3.1737ms
+2025-05-21 00:25:23.725 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:25:23.730 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:25:23.733 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:25:23.738 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:25:23.742 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 5.5456ms
+2025-05-21 00:25:23.745 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:25:23.747 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 21.4785ms
+2025-05-21 00:25:26.503 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:25:26.563 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 60.7836ms
+2025-05-21 00:25:26.570 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:25:26.592 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:25:26.593 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:25:26.596 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:25:26.599 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 4.0924ms
+2025-05-21 00:25:26.603 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:25:26.605 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 35.0813ms
+2025-05-21 00:25:31.947 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:25:31.953 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:25:31.955 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 8.4222ms
+2025-05-21 00:25:31.968 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:25:31.973 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.132ms
+2025-05-21 00:25:32.005 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:25:32.010 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:25:32.012 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:25:32.017 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:25:32.020 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 4.3486ms
+2025-05-21 00:25:32.023 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:25:32.025 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 19.9778ms
+2025-05-21 00:25:56.186 +05:30 [INF] Now listening on: https://localhost:7010
+2025-05-21 00:25:56.235 +05:30 [INF] Now listening on: http://localhost:5121
+2025-05-21 00:25:56.292 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-21 00:25:56.298 +05:30 [INF] Hosting environment: Development
+2025-05-21 00:25:56.301 +05:30 [INF] Content root path: C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo
+2025-05-21 00:26:03.100 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Dashboard.html - null null
+2025-05-21 00:26:03.237 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:26:03.237 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Css/Style.css - null null
+2025-05-21 00:26:03.240 +05:30 [INF] Sending file. Request path: '/Design/Dashboard.html'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Design\Dashboard.html'
+2025-05-21 00:26:03.257 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 19.1769ms
+2025-05-21 00:26:03.260 +05:30 [INF] The file /Css/Style.css was not modified
+2025-05-21 00:26:03.268 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Css/Style.css - 304 null text/css 30.2581ms
+2025-05-21 00:26:03.262 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Dashboard.html - 200 null text/html 164.1954ms
+2025-05-21 00:26:03.314 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:26:03.326 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:26:03.342 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:26:03.441 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:26:03.454 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 105.2507ms
+2025-05-21 00:26:03.457 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:26:03.459 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 144.897ms
+2025-05-21 00:26:47.267 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Dashboard.html - null null
+2025-05-21 00:26:47.335 +05:30 [INF] Sending file. Request path: '/Design/Dashboard.html'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Design\Dashboard.html'
+2025-05-21 00:26:47.338 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Dashboard.html - 200 null text/html 71.2416ms
+2025-05-21 00:26:47.346 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:26:47.351 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.5874ms
+2025-05-21 00:26:47.361 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:26:47.367 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:26:47.369 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:26:47.375 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:26:47.382 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 9.4587ms
+2025-05-21 00:26:47.385 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:26:47.388 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 26.2837ms
+2025-05-21 00:28:44.935 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Dashboard.html - null null
+2025-05-21 00:28:44.949 +05:30 [INF] The file /Design/Dashboard.html was not modified
+2025-05-21 00:28:44.950 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Dashboard.html - 304 null text/html 15.0444ms
+2025-05-21 00:28:44.971 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:28:44.974 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Css/Style.css - null null
+2025-05-21 00:28:44.985 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 13.0841ms
+2025-05-21 00:28:44.988 +05:30 [INF] The file /Css/Style.css was not modified
+2025-05-21 00:28:44.994 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Css/Style.css - 304 null text/css 20.5691ms
+2025-05-21 00:28:45.002 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:28:45.007 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:28:45.009 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:28:45.062 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:28:45.066 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 54.3252ms
+2025-05-21 00:28:45.068 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:28:45.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 68.6722ms
+2025-05-21 00:30:03.303 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Dashboard.html - null null
+2025-05-21 00:30:03.313 +05:30 [INF] The file /Design/Dashboard.html was not modified
+2025-05-21 00:30:03.315 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Dashboard.html - 304 null text/html 12.013ms
+2025-05-21 00:30:03.328 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Css/Style.css - null null
+2025-05-21 00:30:03.330 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:30:03.360 +05:30 [INF] The file /Css/Style.css was not modified
+2025-05-21 00:30:03.365 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Css/Style.css - 304 null text/css 36.6784ms
+2025-05-21 00:30:03.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 33.7876ms
+2025-05-21 00:30:03.372 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:30:03.377 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:30:03.381 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:30:03.403 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:30:03.406 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 23.4678ms
+2025-05-21 00:30:03.410 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:30:03.412 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 40.7669ms
+2025-05-21 00:31:34.994 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:31:35.010 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:31:35.012 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 17.8284ms
+2025-05-21 00:31:35.032 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:31:35.034 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Css/Style.css - null null
+2025-05-21 00:31:35.041 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Image/incedo-logo.png - null null
+2025-05-21 00:31:35.050 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 17.7903ms
+2025-05-21 00:31:35.054 +05:30 [INF] The file /Css/Style.css was not modified
+2025-05-21 00:31:35.062 +05:30 [INF] The file /Image/incedo-logo.png was not modified
+2025-05-21 00:31:35.071 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Image/incedo-logo.png - 304 null image/png 29.8233ms
+2025-05-21 00:31:35.068 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Css/Style.css - 304 null text/css 34.1919ms
+2025-05-21 00:31:35.073 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:31:35.086 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:31:35.090 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:31:35.095 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:31:35.098 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 5.6728ms
+2025-05-21 00:31:35.102 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:31:35.104 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 30.6757ms
+2025-05-21 00:32:29.971 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-21 00:32:30.048 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 76.9278ms
+2025-05-21 00:32:30.057 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-21 00:32:40.310 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:32:40.367 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-21 00:32:40.370 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 3.1964ms
+2025-05-21 00:32:40.384 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-21 00:32:40.392 +05:30 [INF] Sending file. Request path: '/Design/Employee_Reports.html'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Design\Employee_Reports.html'
+2025-05-21 00:32:40.394 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 200 null text/html 83.5135ms
+2025-05-21 00:32:40.403 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:32:40.409 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.763ms
+2025-05-21 00:32:40.451 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:32:40.454 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:32:40.459 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:32:40.465 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:32:40.469 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 6.8551ms
+2025-05-21 00:32:40.472 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:32:40.474 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 23.9573ms
+2025-05-21 00:32:50.674 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:32:50.680 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:32:50.682 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 8.1433ms
+2025-05-21 00:32:50.701 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:32:50.706 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.0421ms
+2025-05-21 00:32:50.723 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-21 00:32:50.728 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 5.4038ms
+2025-05-21 00:32:50.735 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-21 00:32:50.789 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:32:50.794 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:32:50.796 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:32:50.801 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:32:50.803 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 4.3189ms
+2025-05-21 00:32:50.805 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:32:50.807 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 17.6585ms
+2025-05-21 00:33:09.376 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:33:09.383 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:33:09.384 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 8.6328ms
+2025-05-21 00:33:09.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Css/Style.css - null null
+2025-05-21 00:33:09.430 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-21 00:33:09.435 +05:30 [INF] The file /Css/Style.css was not modified
+2025-05-21 00:33:09.437 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 6.7853ms
+2025-05-21 00:33:09.439 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Css/Style.css - 304 null text/css 10.6979ms
+2025-05-21 00:33:09.443 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:33:09.444 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-21 00:33:09.455 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 11.4544ms
+2025-05-21 00:33:09.508 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:33:09.514 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:33:09.516 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:33:09.522 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:33:09.525 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 4.7488ms
+2025-05-21 00:33:09.527 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:33:09.530 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 21.0907ms
+2025-05-21 00:33:20.153 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:33:20.159 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:33:20.160 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 7.2766ms
+2025-05-21 00:33:20.174 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:33:20.179 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.1527ms
+2025-05-21 00:33:20.194 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-21 00:33:20.199 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 5.1815ms
+2025-05-21 00:33:20.205 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-21 00:33:20.233 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:33:20.238 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:33:20.240 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:33:20.245 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:33:20.248 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 4.2805ms
+2025-05-21 00:33:20.250 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:33:20.252 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 19.0335ms
+2025-05-21 00:33:29.025 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:33:29.091 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-21 00:33:29.098 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 6.4976ms
+2025-05-21 00:33:29.103 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-21 00:33:29.106 +05:30 [INF] Sending file. Request path: '/Design/Employee_Reports.html'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Design\Employee_Reports.html'
+2025-05-21 00:33:29.109 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 200 null text/html 84.4849ms
+2025-05-21 00:33:29.114 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:33:29.119 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.3084ms
+2025-05-21 00:33:29.158 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:33:29.164 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:33:29.166 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:33:29.172 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:33:29.174 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 4.3643ms
+2025-05-21 00:33:29.177 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:33:29.179 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 21.2426ms
+2025-05-21 00:34:29.852 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:34:29.898 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-21 00:34:29.901 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 3.0302ms
+2025-05-21 00:34:29.905 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-21 00:34:29.928 +05:30 [INF] Sending file. Request path: '/Design/Employee_Reports.html'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Design\Employee_Reports.html'
+2025-05-21 00:34:29.931 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 200 null text/html 78.708ms
+2025-05-21 00:34:29.943 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:34:29.948 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.2427ms
+2025-05-21 00:34:29.984 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:34:29.988 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:34:29.990 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:34:29.996 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:34:29.998 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 4.9481ms
+2025-05-21 00:34:30.001 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:34:30.003 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 18.9573ms
+2025-05-21 00:34:43.477 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:34:43.489 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:34:43.490 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 13.5135ms
+2025-05-21 00:34:43.578 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Css/Style.css - null null
+2025-05-21 00:34:43.584 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:34:43.585 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-21 00:34:43.591 +05:30 [INF] The file /Css/Style.css was not modified
+2025-05-21 00:34:43.603 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 19.3147ms
+2025-05-21 00:34:43.608 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 23.4445ms
+2025-05-21 00:34:43.653 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7010/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-21 00:34:43.641 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:34:43.610 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Css/Style.css - 304 null text/css 31.4339ms
+2025-05-21 00:34:43.660 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:34:43.670 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:34:43.674 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:34:43.690 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 16.9792ms
+2025-05-21 00:34:43.695 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:34:43.698 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 56.9301ms
+2025-05-21 00:34:52.841 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:34:52.847 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:34:52.849 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 7.4989ms
+2025-05-21 00:34:52.863 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:34:52.869 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 6.0946ms
+2025-05-21 00:34:52.884 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:34:52.890 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:34:52.892 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:34:52.899 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:34:52.902 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 5.1ms
+2025-05-21 00:34:52.905 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:34:52.907 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 22.8243ms
+2025-05-21 00:35:17.264 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:35:17.271 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:35:17.278 +05:30 [INF] Sending file. Request path: '/Design/Employee_Reports.html'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Design\Employee_Reports.html'
+2025-05-21 00:35:17.291 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-05-21 00:35:17.293 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 499 null text/html 28.2945ms
+2025-05-21 00:35:17.345 +05:30 [INF] Sending file. Request path: '/Design/Employee_Reports.html'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Design\Employee_Reports.html'
+2025-05-21 00:35:17.348 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 200 null text/html 77.3769ms
+2025-05-21 00:35:17.358 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:35:17.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.0764ms
+2025-05-21 00:35:17.379 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:35:17.383 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:35:17.385 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:35:17.388 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:35:17.390 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 3.1499ms
+2025-05-21 00:35:17.392 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:35:17.393 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 14.667ms
+2025-05-21 00:35:20.328 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:35:20.381 +05:30 [INF] Sending file. Request path: '/Design/Employee_Reports.html'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Design\Employee_Reports.html'
+2025-05-21 00:35:20.383 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 200 null text/html 55.2027ms
+2025-05-21 00:35:20.386 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:35:20.393 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 6.1359ms
+2025-05-21 00:35:20.400 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:35:20.405 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:35:20.408 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:35:20.417 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:35:20.420 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 4.6135ms
+2025-05-21 00:35:20.422 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:35:20.424 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 23.5794ms
+2025-05-21 00:35:22.894 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:35:22.900 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:35:22.903 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 9.1705ms
+2025-05-21 00:35:22.919 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:35:22.928 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 8.6872ms
+2025-05-21 00:35:22.935 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:35:22.940 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:35:22.942 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:35:22.946 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:35:22.949 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 4.4907ms
+2025-05-21 00:35:22.953 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:35:22.955 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 19.2718ms
+2025-05-21 00:35:29.756 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:35:29.763 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:35:29.767 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 11.0728ms
+2025-05-21 00:35:29.790 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:35:29.807 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 16.3599ms
+2025-05-21 00:35:29.813 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:35:29.864 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:35:29.866 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:35:29.871 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:35:29.876 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 6.7911ms
+2025-05-21 00:35:29.880 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:35:29.881 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 67.8854ms
+2025-05-21 00:35:32.743 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Dashboard.html - null null
+2025-05-21 00:35:32.749 +05:30 [INF] The file /Design/Dashboard.html was not modified
+2025-05-21 00:35:32.753 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Dashboard.html - 304 null text/html 9.6502ms
+2025-05-21 00:35:32.763 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:35:32.776 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 12.7461ms
+2025-05-21 00:35:32.780 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:35:32.803 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:35:32.806 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:35:32.811 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:35:32.816 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 6.3899ms
+2025-05-21 00:35:32.819 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:35:32.821 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 41.4427ms
+2025-05-21 00:36:41.123 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - null null
+2025-05-21 00:36:41.131 +05:30 [INF] The file /Design/Employee_Reports.html was not modified
+2025-05-21 00:36:41.141 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Employee_Reports.html - 304 null text/html 17.9648ms
+2025-05-21 00:36:41.154 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:36:41.154 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Css/Style.css - null null
+2025-05-21 00:36:41.171 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 17.0285ms
+2025-05-21 00:36:41.176 +05:30 [INF] The file /Css/Style.css was not modified
+2025-05-21 00:36:41.183 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Css/Style.css - 304 null text/css 28.3889ms
+2025-05-21 00:36:41.196 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/api/tasks - null null
+2025-05-21 00:36:41.204 +05:30 [INF] Executing endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:36:41.206 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WEBAPI_Demo.Controllers.TasksController (WEBAPI_Demo).
+2025-05-21 00:36:41.211 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WEBAPI_Demo.Models.TaskItem, WEBAPI_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-21 00:36:41.214 +05:30 [INF] Executed action WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo) in 4.8858ms
+2025-05-21 00:36:41.216 +05:30 [INF] Executed endpoint 'WEBAPI_Demo.Controllers.TasksController.Get (WEBAPI_Demo)'
+2025-05-21 00:36:41.218 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/api/tasks - 200 null application/json; charset=utf-8 22.2826ms
+2025-05-21 00:37:25.077 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/Design/Daily_Report.html - null null
+2025-05-21 00:37:25.163 +05:30 [INF] Sending file. Request path: '/Design/Daily_Report.html'. Physical path: 'C:\Users\Elakkiya.Swaminathan\Downloads\WEBAPI_Demo 1\WEBAPI_Demo\WEBAPI_Demo\wwwroot\Design\Daily_Report.html'
+2025-05-21 00:37:25.165 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/Design/Daily_Report.html - 200 null text/html 87.9964ms
+2025-05-21 00:37:25.171 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-21 00:37:25.177 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7010/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 6.3954ms

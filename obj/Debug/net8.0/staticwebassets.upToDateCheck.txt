@@ -1,0 +1,8 @@
+wwwroot\Css\Style.css
+wwwroot\Design\Daily_Report.html
+wwwroot\Design\Dashboard.html
+wwwroot\Design\Employee_Reports.html
+wwwroot\Image\Incedo_Logo.png
+wwwroot\Image\incedo-logo.png
+wwwroot\Image\inet_logo.png
+wwwroot\javascript\scripts.js

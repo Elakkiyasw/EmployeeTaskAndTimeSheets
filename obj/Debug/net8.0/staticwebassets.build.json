@@ -1,0 +1,846 @@
+{
+  "Version": 1,
+  "Hash": "/6M/oW8N/hhhrPUmNkZPgUOSZKJBgoAQfWaJ/c1WKtU=",
+  "Source": "WEBAPI_Demo",
+  "BasePath": "_content/WEBAPI_Demo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WEBAPI_Demo\\wwwroot",
+      "Source": "WEBAPI_Demo",
+      "ContentRoot": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_Demo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Css\\Style.css",
+      "SourceId": "WEBAPI_Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_Demo",
+      "RelativePath": "Css/Style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "na8fkivd0q",
+      "Integrity": "QdyAfMYS+JWy+6AsUBd5or5o+JqVU4pLMR8ViM3Vhn8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\Style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Daily_Report.html",
+      "SourceId": "WEBAPI_Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_Demo",
+      "RelativePath": "Design/Daily_Report#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0axlp7qj9n",
+      "Integrity": "SM95gyhWyjipINaeEFS+wESiSN1g1VDiQT2sPvuLP08=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Design\\Daily_Report.html"
+    },
+    {
+      "Identity": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Dashboard.html",
+      "SourceId": "WEBAPI_Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_Demo",
+      "RelativePath": "Design/Dashboard#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y0ocxddikg",
+      "Integrity": "XpZGPVrOYbHtbBwS/EYMnMwz+AC+VmxK2sd9WrkoPlw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Design\\Dashboard.html"
+    },
+    {
+      "Identity": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Employee_Reports.html",
+      "SourceId": "WEBAPI_Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_Demo",
+      "RelativePath": "Design/Employee_Reports#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4tjoos7vve",
+      "Integrity": "SLK8wvdZKdBcMDrYI8J2656IY0bDnP28+daILU7oIfE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Design\\Employee_Reports.html"
+    },
+    {
+      "Identity": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\Incedo_Logo.png",
+      "SourceId": "WEBAPI_Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_Demo",
+      "RelativePath": "Image/Incedo_Logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r2hlp0tcg1",
+      "Integrity": "TS1sreDBLfC0oT+VzXOzg/iN20w4xAWv/R1gtvQDG94=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Incedo_Logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\incedo-logo.png",
+      "SourceId": "WEBAPI_Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_Demo",
+      "RelativePath": "Image/incedo-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bnpd9lu9t7",
+      "Integrity": "FwCtevxIEZEsYU2NLXE1z7WnZFdcMeBWBqyFEBsUfn4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\incedo-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\inet_logo.png",
+      "SourceId": "WEBAPI_Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_Demo",
+      "RelativePath": "Image/inet_logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dfjtzybcdv",
+      "Integrity": "mYLZ4pN8joFEXXkC+v5Na+JAaC3c6jWliNsW18tsi+M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\inet_logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\javascript\\scripts.js",
+      "SourceId": "WEBAPI_Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_Demo",
+      "RelativePath": "javascript/scripts#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ckvgp1vgy4",
+      "Integrity": "NK+vlQZ0fHTkA9dZC6BvLGwte21CC/JBD3lb0bOoL0A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\javascript\\scripts.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Css/Style.css",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Css\\Style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QdyAfMYS+JWy+6AsUBd5or5o+JqVU4pLMR8ViM3Vhn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QdyAfMYS+JWy+6AsUBd5or5o+JqVU4pLMR8ViM3Vhn8="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Style.na8fkivd0q.css",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Css\\Style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QdyAfMYS+JWy+6AsUBd5or5o+JqVU4pLMR8ViM3Vhn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "na8fkivd0q"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QdyAfMYS+JWy+6AsUBd5or5o+JqVU4pLMR8ViM3Vhn8="
+        }
+      ]
+    },
+    {
+      "Route": "Design/Daily_Report.0axlp7qj9n.html",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Daily_Report.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SM95gyhWyjipINaeEFS+wESiSN1g1VDiQT2sPvuLP08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0axlp7qj9n"
+        },
+        {
+          "Name": "label",
+          "Value": "Design/Daily_Report.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SM95gyhWyjipINaeEFS+wESiSN1g1VDiQT2sPvuLP08="
+        }
+      ]
+    },
+    {
+      "Route": "Design/Daily_Report.html",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Daily_Report.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SM95gyhWyjipINaeEFS+wESiSN1g1VDiQT2sPvuLP08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SM95gyhWyjipINaeEFS+wESiSN1g1VDiQT2sPvuLP08="
+        }
+      ]
+    },
+    {
+      "Route": "Design/Dashboard.html",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Dashboard.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XpZGPVrOYbHtbBwS/EYMnMwz+AC+VmxK2sd9WrkoPlw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:55:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XpZGPVrOYbHtbBwS/EYMnMwz+AC+VmxK2sd9WrkoPlw="
+        }
+      ]
+    },
+    {
+      "Route": "Design/Dashboard.y0ocxddikg.html",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Dashboard.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XpZGPVrOYbHtbBwS/EYMnMwz+AC+VmxK2sd9WrkoPlw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:55:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y0ocxddikg"
+        },
+        {
+          "Name": "label",
+          "Value": "Design/Dashboard.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XpZGPVrOYbHtbBwS/EYMnMwz+AC+VmxK2sd9WrkoPlw="
+        }
+      ]
+    },
+    {
+      "Route": "Design/Employee_Reports.4tjoos7vve.html",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Employee_Reports.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SLK8wvdZKdBcMDrYI8J2656IY0bDnP28+daILU7oIfE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4tjoos7vve"
+        },
+        {
+          "Name": "label",
+          "Value": "Design/Employee_Reports.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SLK8wvdZKdBcMDrYI8J2656IY0bDnP28+daILU7oIfE="
+        }
+      ]
+    },
+    {
+      "Route": "Design/Employee_Reports.html",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Design\\Employee_Reports.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SLK8wvdZKdBcMDrYI8J2656IY0bDnP28+daILU7oIfE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SLK8wvdZKdBcMDrYI8J2656IY0bDnP28+daILU7oIfE="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Incedo_Logo.png",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\Incedo_Logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TS1sreDBLfC0oT+VzXOzg/iN20w4xAWv/R1gtvQDG94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TS1sreDBLfC0oT+VzXOzg/iN20w4xAWv/R1gtvQDG94="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Incedo_Logo.r2hlp0tcg1.png",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\Incedo_Logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TS1sreDBLfC0oT+VzXOzg/iN20w4xAWv/R1gtvQDG94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r2hlp0tcg1"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/Incedo_Logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TS1sreDBLfC0oT+VzXOzg/iN20w4xAWv/R1gtvQDG94="
+        }
+      ]
+    },
+    {
+      "Route": "Image/incedo-logo.bnpd9lu9t7.png",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\incedo-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FwCtevxIEZEsYU2NLXE1z7WnZFdcMeBWBqyFEBsUfn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bnpd9lu9t7"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/incedo-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FwCtevxIEZEsYU2NLXE1z7WnZFdcMeBWBqyFEBsUfn4="
+        }
+      ]
+    },
+    {
+      "Route": "Image/incedo-logo.png",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\incedo-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FwCtevxIEZEsYU2NLXE1z7WnZFdcMeBWBqyFEBsUfn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FwCtevxIEZEsYU2NLXE1z7WnZFdcMeBWBqyFEBsUfn4="
+        }
+      ]
+    },
+    {
+      "Route": "Image/inet_logo.dfjtzybcdv.png",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\inet_logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5031"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mYLZ4pN8joFEXXkC+v5Na+JAaC3c6jWliNsW18tsi+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dfjtzybcdv"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/inet_logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mYLZ4pN8joFEXXkC+v5Na+JAaC3c6jWliNsW18tsi+M="
+        }
+      ]
+    },
+    {
+      "Route": "Image/inet_logo.png",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\Image\\inet_logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5031"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mYLZ4pN8joFEXXkC+v5Na+JAaC3c6jWliNsW18tsi+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mYLZ4pN8joFEXXkC+v5Na+JAaC3c6jWliNsW18tsi+M="
+        }
+      ]
+    },
+    {
+      "Route": "javascript/scripts.ckvgp1vgy4.js",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\javascript\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NK+vlQZ0fHTkA9dZC6BvLGwte21CC/JBD3lb0bOoL0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ckvgp1vgy4"
+        },
+        {
+          "Name": "label",
+          "Value": "javascript/scripts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NK+vlQZ0fHTkA9dZC6BvLGwte21CC/JBD3lb0bOoL0A="
+        }
+      ]
+    },
+    {
+      "Route": "javascript/scripts.js",
+      "AssetFile": "C:\\Users\\Elakkiya.Swaminathan\\Downloads\\WEBAPI_Demo 1\\WEBAPI_Demo\\WEBAPI_Demo\\wwwroot\\javascript\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NK+vlQZ0fHTkA9dZC6BvLGwte21CC/JBD3lb0bOoL0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 18:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NK+vlQZ0fHTkA9dZC6BvLGwte21CC/JBD3lb0bOoL0A="
+        }
+      ]
+    }
+  ]
+}

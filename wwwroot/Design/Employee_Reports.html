@@ -1,0 +1,340 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PV SmartWorks </title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <link rel="stylesheet" href="../Css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .charts-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1229px;
+            margin: 0 auto;
+        }
+
+        .chart-container {
+            flex: 1 1 45%;
+            max-width: 45%;
+            margin: 10px;
+        }
+
+        /* Responsive design: stack the charts on smaller screens */
+        @media (max-width: 768px) {
+            .chart-container {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+
+        .crud-buttons {
+            text-align: center;
+            margin: 20px;
+        }
+
+            .crud-buttons button {
+                background-color: #4ca2ff;
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 5px 2px;
+                cursor: pointer;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+
+                .crud-buttons button:hover {
+                    background-color: #0056b3;
+                }
+
+                .crud-buttons button:active {
+                    background-color: #004080;
+                }
+
+        .menu {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu-item {
+            position: relative;
+        }
+
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 30px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            z-index: 1000;
+        }
+
+            .submenu li {
+                padding: 5px;
+            }
+
+        .menu-item:hover .submenu {
+            display: block;
+        }
+
+        .menu-item a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+            padding: 10px;
+        }
+
+            .menu-item a:hover {
+                background-color: #f0f0f0;
+            }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-container">
+                <!--<img src="" alt="Logo" class="logo" style="width:100px; height:auto;">-->
+            </div>
+            <ul class="menu">
+                <li><a href="Dashboard.html"><i class="fa fa-tachometer"></i> Dashboard</a></li>
+                <li class="menu-item">
+                    <a href="#"><i class="fa fa-lock"></i>Timesheet Reports</a>
+                    <ul class="submenu">
+                        <li ><a href="Employee_Reports.html"><i class="fa fa-arrow-right"></i> Employee Reports</a></li>
+                        <li class="submenu"><a href="Daily_Report.html"><i class="fa fa-arrow-right"></i> Daily Report</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <h3>Task Management</h3>
+                
+            </header>
+
+            <!-- Content Area -->
+            <div class="crud-buttons">
+                <button onclick="addData()">Add Task </button>
+                <button onclick="updateData()"> Edit </button>
+                <button onclick="removeData()"> Delete </button>
+                <!--<button onclick="viewData()">View </button>-->
+            </div>
+            <div class="charts-container">
+
+                <div class="chart-container">
+                    <div id="statusDonutChart"></div>
+                </div>
+                <div class="chart-container">
+                    <div id="employeePieChart"></div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <script>
+        let chart;
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            fetchData();
+        });
+
+        function fetchData() {
+            fetch('/api/tasks')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Network response was not ok, status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Group tasks by Employee Name
+                    const employeeGrouped = data.reduce((acc, item) => {
+                        if (!acc[item.employeeName]) {
+                            acc[item.employeeName] = [];
+                        }
+                        acc[item.employeeName].push(item.taskDescription);
+                        return acc;
+                    }, {});
+
+                    const employeeData = Object.keys(employeeGrouped).map(name => ({
+                        name: name,
+                        y: employeeGrouped[name].length,
+                        tasks: employeeGrouped[name].join(', ')
+                    }));
+
+                    console.log('Employee Chart Data:', employeeData);
+
+                    // Create the Employee Pie Chart
+                    Highcharts.chart('employeePieChart', {
+                        chart: {
+                            type: 'pie',
+                            options3d: {
+                                enabled: true,
+                                alpha: 45
+                            }
+                        },
+                        title: {
+                            text: 'Task Distribution by Employee'
+                        },
+                        plotOptions: {
+                            pie: {
+                                innerSize: 100,
+                                depth: 45,
+                                dataLabels: {
+                                    format: '{point.name}: {point.y} tasks',
+                                    formattip: '{point.name}: {point.tasks} tasks',
+                                },
+                                tooltip: {
+                                    pointFormat: '<b>Tasks: {point.tasks}</b>'
+
+                                }
+                            }
+                        },
+                        series: [{
+                            name: 'Tasks',
+                            data: employeeData,
+                            colorByPoint: true
+                        }]
+                    });
+
+                    // Group tasks by Status
+                    const statusGrouped = data.reduce((acc, item) => {
+                        if (!acc[item.status]) {
+                            acc[item.status] = [];
+                        }
+                        acc[item.status].push(item.taskDescription);
+                        return acc;
+                    }, {});
+
+                    const statusData = Object.keys(statusGrouped).map(status => ({
+                        name: status,
+                        y: statusGrouped[status].length,
+                        tasks: statusGrouped[status].join(', ')
+                    }));
+
+                    console.log('Status Chart Data:', statusData);
+
+                    // Create the Status Donut Chart
+                    Highcharts.chart('statusDonutChart', {
+                        chart: {
+                            type: 'pie',
+                            options3d: {
+                                enabled: true,
+                                alpha: 45
+                            }
+                        },
+                        title: {
+                            text: 'Task Distribution by Status'
+                        },
+                        plotOptions: {
+                            pie: {
+                                innerSize: 100,
+                                depth: 45,
+                                dataLabels: {
+                                    format: '{point.name}: {point.y} tasks'
+                                },
+                                tooltip: {
+                                    pointFormat: '<b>Tasks: {point.tasks}</b>'
+                                   
+                                }
+
+                            }
+                        },
+                        series: [{
+                            name: 'Tasks',
+                            data: statusData
+                        }]
+                    });
+                })
+                .catch(error => console.error('Error fetching data:', error.message));
+        }
+
+        function addData() {
+            const newData = prompt('Enter Task Details (Employee Name,Task Description,Status):').split(',');
+
+            if (newData.length === 3) {
+                fetch('/api/tasks', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        EmployeeName: newData[0],
+                        TaskDescription: newData[1],
+                        Status: newData[2]
+                    })
+                })
+                    .then(() => fetchData())
+                    .catch(error => console.error('Error adding data:', error));
+            } else {
+                alert('Invalid input. Please enter in the format "Employee Name,Task Description,Status".');
+            }
+        }
+
+        function updateData() {
+            const id = prompt('Enter ID of data to update:');
+            const newData = prompt('Enter new data (Employee Name,Task Description,Status):').split(',');
+
+            if (id && newData.length === 3) {
+                fetch(`/api/tasks/${id}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        EmployeeName: newData[0],
+                        TaskDescription: newData[1],
+                        Status: newData[2]
+                    })
+                })
+                    .then(() => fetchData())
+                    .catch(error => console.error('Error updating data:', error));
+            } else {
+                alert('Invalid input. Please ensure ID and data are correct.');
+            }
+        }
+
+        function removeData() {
+            const id = prompt('Enter ID of data to remove:');
+            if (id) {
+                fetch(`/api/tasks/${id}`, {
+                    method: 'DELETE'
+                })
+                    .then(() => fetchData())
+                    .catch(error => console.error('Error removing data:', error));
+            } else {
+                alert('Invalid ID.');
+            }
+        }
+
+        function viewData() {
+            fetch('/api/tasks')
+                .then(response => response.json())
+                .then(data => {
+                    const dataText = data.map(item =>
+                        `ID: ${item.id}, Employee: ${item.employeeName}, Task: ${item.taskDescription}, Status: ${item.status}`
+                    ).join('\n');
+                    alert(`Current data:\n${dataText}`);
+                })
+                .catch(error => console.error('Error viewing data:', error));
+        }
+
+    </script>
+</body>
+</html>
